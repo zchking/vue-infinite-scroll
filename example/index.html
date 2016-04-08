@@ -1,26 +1,16 @@
-# vue-infinite-scroll
-vue infinite scroll which can work.
-
-
-借鉴于ElemeFE/vue-infinite-scroll．
-重新设计了核心算法．
-
-
-＠TODO 增加环境与测试用例．
-
-# 使用方法//Usage
-
-Use v-infinite-scroll to enable the infinite scroll, and use infinite-scroll-* attributes to define its options.
-
-使用v-infinite-scroll使无限卷动,使用 infinite-scroll- * 属性来定义它的选项。
-
-```HTML
-<div v-infinite-scroll="loadMore()" infinite-scroll-foot="500">
-
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>vue-infinite-scroll</title>
+</head>
+<body>
+<div class="app" v-infinite-scroll="loadMore()" infinite-scroll-foot="500">
+  <div v-for="list in a"></div>
 </div>
-```
-
-```JavaScript
+<script src="https://cdn.css.net/libs/vue/1.0.10/vue.min.js"></script>
+<script src="../vue-infinite-scroll.js"></script>
+<script>
   var app = document.querySelector('.app')
   new Vue({
     el: 'body',
@@ -61,14 +51,6 @@ Use v-infinite-scroll to enable the infinite scroll, and use infinite-scroll-* a
         })
     }
   })
-```
-
-# 选项//Options
-
-| Option | Description |
-| ----- | ----- |
-| infinite-scroll-foot | 设定滚动条距离底部的高度．// Set the height of the scroll bar at the bottom of the distance. |
-
-# License
-
-MIT
+</script>
+</body>
+</html>
