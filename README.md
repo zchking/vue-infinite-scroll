@@ -8,8 +8,7 @@ vue infinite scroll which can work.
 
 ＠TODO 增加环境与测试用例．
 
-
-＃使用方法//Usage
+# 使用方法//Usage
 
 Use v-infinite-scroll to enable the infinite scroll, and use infinite-scroll-* attributes to define its options.
 使用v-infinite-scroll使无限卷动,使用 infinite-scroll- * 属性来定义它的选项。
