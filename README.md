@@ -11,6 +11,7 @@ vue infinite scroll which can work.
 # 使用方法//Usage
 
 Use v-infinite-scroll to enable the infinite scroll, and use infinite-scroll-* attributes to define its options.
+
 使用v-infinite-scroll使无限卷动,使用 infinite-scroll- * 属性来定义它的选项。
 
 ```HTML
@@ -67,3 +68,7 @@ Use v-infinite-scroll to enable the infinite scroll, and use infinite-scroll-* a
 | Option | Description |
 | ----- | ----- |
 | infinite-scroll-foot | 设定滚动条距离底部的高度．// Set the height of the scroll bar at the bottom of the distance. |
+
+# License
+
+MIT
