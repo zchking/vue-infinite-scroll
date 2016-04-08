@@ -123,7 +123,6 @@ import Vue from 'vue'
         shouldTrigger = getVisibleHeight() + getScrollTop() + viewportFoot <= getScrollHeight()
       } else {
         shouldTrigger = getVisibleHeight() + getScrollTop() + viewportFoot >= getScrollHeight()
-        console.log(shouldTrigger)
       }
 
       if (shouldTrigger && this.expression) {
